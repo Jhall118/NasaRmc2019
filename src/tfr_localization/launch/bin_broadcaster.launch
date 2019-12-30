@@ -5,7 +5,7 @@
             parent_frame: odom 
             point_frame: bin_footprint
             service_name: localize_bin
-            hz: 10
+            hz: 1
             #rear camera height adjustment
             height: -0.16 
         </rosparam>
