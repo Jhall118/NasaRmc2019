@@ -10,8 +10,8 @@
         type="robot_state_publisher" respawn="false" />
 
     <node name="drivebase" pkg="tfr_control" type="drivebase" output="screen">
-        <param name="wheel_span"  value="3.0"/> 
-        <param name="wheel_radius" value="1.5"/> 
+        <param name="wheel_span"  value="0.5715"/> 
+        <param name="wheel_radius" value=".15"/> 
     </node>
 
     <!-- Load the controller manager plugin for the drivebase -->
